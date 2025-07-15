@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: developers
+  description: The Developers Group
+spec:
+  type: team
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: QA
+  description: The Quality Assurance Group
+spec:
+  type: team
+  children: []
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: HR
+  description: The Human Resources Group
+spec:
+  type: team
+  children: []
