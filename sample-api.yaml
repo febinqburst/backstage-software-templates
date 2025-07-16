@@ -8,7 +8,6 @@ spec:
   lifecycle: production
   owner: developers
   definition:
-    $text: |
       openapi: 3.0.0
       info:
         title: Developer API
@@ -32,7 +31,6 @@ spec:
   lifecycle: production
   owner: QA
   definition:
-    $text: |
       openapi: 3.0.0
       info:
         title: QA API
@@ -56,7 +54,6 @@ spec:
   lifecycle: production
   owner: HR
   definition:
-    $text: |
       openapi: 3.0.0
       info:
         title: HR API
