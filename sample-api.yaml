@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: simple-api
+  name: Finbook-api
   description: A very simple API definition for Backstage demo
 spec:
   type: openapi
