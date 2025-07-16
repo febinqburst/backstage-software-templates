@@ -1,0 +1,70 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: multifamily-api
+  description: API for developer operations
+spec:
+  type: openapi
+  lifecycle: production
+  owner: developers
+  definition:
+    $text: |
+      openapi: 3.0.0
+      info:
+        title: Developer API
+        version: 1.0.0
+      paths:
+        /devtools:
+          get:
+            summary: List developer tools
+            responses:
+              '200':
+                description: OK
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: finbook-api
+  description: API for QA operations
+spec:
+  type: openapi
+  lifecycle: production
+  owner: QA
+  definition:
+    $text: |
+      openapi: 3.0.0
+      info:
+        title: QA API
+        version: 1.0.0
+      paths:
+        /tests:
+          get:
+            summary: List all tests
+            responses:
+              '200':
+                description: OK
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: qortex-api
+  description: API for HR operations
+spec:
+  type: openapi
+  lifecycle: production
+  owner: HR
+  definition:
+    $text: |
+      openapi: 3.0.0
+      info:
+        title: HR API
+        version: 1.0.0
+      paths:
+        /employees:
+          get:
+            summary: List all employees
+            responses:
+              '200':
+                description: OK
