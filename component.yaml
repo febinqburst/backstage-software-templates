@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Multifamily-project
+  description: A demo service for Backstage
+  tags:
+    - demo
+spec:
+  type: service
+  owner: developers
+  lifecycle: experimental
